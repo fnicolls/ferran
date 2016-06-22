@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	background: mintcream;
+}
+header{
+	
+	width: 100%;
+	text-align: center;
+}
+header h1{
+	color: white;
+	padding: 1em 1em 0.25em 1em;
+	background-color: lightblue;
+	margin: 0;
+}
+nav{
+	padding-bottom: 1em;
+	background-color: lightslategray;
+}
+nav ul{
+	margin: 0;
+	padding-top: 1em;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+	margin-right: 2em;
+}
+h2{
+	text-align: center;
+	color: lightskyblue;
+	text-transform: uppercase;
+	width: 100%;
+	font-size: 4.5em;
+	margin: 0;
+}
+footer{
+	background: lightblue;
+	color: white;
+	padding: 3em;
+	clear: both;
+}
+footer small{
+	float: right;
+}
+body.home li.home a{
+	border-bottom: 3px solid mediumaquamarine;	
+}
+body.about li.about a{
+	border-bottom: 3px solid mediumaquamarine;	
+}
+body.port li.portfolio a{
+	border-bottom: 3px solid mediumaquamarine;	
+}
+body.contact li.contact a{
+	border-bottom: 3px solid mediumaquamarine;	
+}
+img{
+	float: left;
+	width: 50%;
+}
+div{
+	float: right;
+	width: 45%;
+	padding-left: 1em;
+}
+body.port img{
+	width: 20%;
+}
