@@ -46,7 +46,7 @@ if ( $_POST['did_submit'] ) {
 
 	if ( $did_send ){
 		//success
-		$feedback = "Thank you for your message, $name. I will be in touch";
+		$feedback = "Thank you for your message, $name. I will be in touch soon";
 		$css_class = 'success';
 		//redirect
 		header("Location:thanks.php?name=$name");
