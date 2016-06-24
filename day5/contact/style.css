@@ -1,0 +1,38 @@
+/* colors: mistyrose powderblue steelblue */
+body{
+	font-family: calibri, sans-serif;
+
+	background-color: mistyrose;
+}
+#container{
+	background-color: white;
+	margin: 3em auto;
+	max-width: 400px;
+	width: 80%;
+	padding: 3em;
+	border: 3px solid powderblue;
+}
+label{
+	display: block;
+	margin: 1em 0 .5em;
+}
+input, select, textarea{
+	display: block;
+	width: 100%;
+	padding: .5em;
+}
+input[type=checkbox]{
+	display: inline;
+	width: auto;
+}
+h1{
+	margin-top: 0;
+}
+div.feedback{
+	border: 1px solid red;
+	padding: 0.5em;
+}
+form .error{
+	border: 1px solid crimson;
+	border-left: 3px solid crimson;
+}
