@@ -1,0 +1,89 @@
+*{-moz-box-sizing:border-box; -webkit-box-sizing: border-box;
+	box-sizing: border-box;}
+html{
+	background: url('../imgs/asanoha-400px.png');
+}
+body{
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	background: url('../imgs/swirl_pattern.png');
+}
+header div{
+	background: rgba(173, 216, 230, 0.75);
+	padding: 1em;
+}
+header h1{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0.25em;
+}
+main{
+	float: left;
+	width: 70%;
+	background: white;
+	padding: 1em;
+}
+aside{
+	float: right;
+	width: 30%;
+	padding: 1em;
+	background: aliceblue;
+}
+aside h4{
+	font-size: 1em;
+	text-transform: uppercase;
+	margin-top: 2em;
+	margin-bottom: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+section ul{
+	padding-left: 0.25em;
+	margin-top: 0.25em;
+}
+section ul li{
+	list-style-type: none;
+}
+section ul li:before{
+	content: '> ';
+}
+section a{
+	font-size: 0.75em;
+	color: 000;
+}
+article{
+	border: 5px solid lightblue;
+	margin-top: 1em;
+	padding: 1em;
+}
+article h2{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+article h3{
+	font-size: 0.85em;
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: steelblue;
+}
+article p{
+	font-size: 0.8em;
+}
+footer{
+	clear: both;
+	background: url('../imgs/swirl_pattern.png');
+	width: 100%;	
+	font-size: 0.65em;
+	color: slategray;
+}	
+footer div{
+	background: rgba(173, 216, 230, 0.75);
+	padding: 2em;
+}
