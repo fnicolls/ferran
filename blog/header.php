@@ -17,6 +17,6 @@ include_once('functions.php');
 	
 	<header>
 	<div>
-		<h1>My PHP Bloggy</h1>
+		<h1><a href="index.php">My PHP Bloggy</a></h1>
 	</div>
 	</header>

@@ -1,0 +1,43 @@
+.loading{
+	background-color: lightcoral;
+}
+.loading:before{
+	content: 'loading...';
+}
+body{
+	margin: 0 auto;
+	padding: 1em;
+	font-family: calibri, sans-serif;
+}
+#display-area{
+	background-color: aliceblue;
+	padding: 2em;
+}
+article{
+	border: 2px solid cornflowerblue;
+	background-color: ivory;
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-bottom: 1em;
+	padding: .75em;
+}
+
+/*for the tabs interface*/
+.tabs{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.tab{
+	display: inline-block;
+	background-color: lightpink;
+	cursor: pointer;
+	padding: .4em 1em;
+	border-radius: .5em;
+	margin: .2em .1em;
+	text-transform: uppercase;
+}
+.current{
+	background-color: lightcoral;
+	color: white;
+}
