@@ -13,6 +13,7 @@
 			<li><a href="blog.php">Blog</a></li>
 			<li><a href="links.php">Links</a></li>
 			<li><a href="authors.php">Authors</a></li>
+			<li><a href="rss.php" target="_blank">RSS</a></li>
 		</ul>
 	</section>
 

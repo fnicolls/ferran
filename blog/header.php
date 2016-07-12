@@ -12,6 +12,7 @@ include_once('functions.php');
 	<link href='https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="alternate" type="application/rss+xml" href="rss.php" title="subscribe to my blahg">
 </head>
 <body>
 	
