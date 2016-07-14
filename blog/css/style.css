@@ -36,6 +36,9 @@ main{
 	background: white;
 	padding: 1em;
 }
+main#login{
+	width: 100%;
+}
 aside{
 	float: right;
 	width: 30%;
@@ -204,7 +207,9 @@ input#submit{
 .authors{
 	margin-bottom: 1em;
 }
-
+input[value="Log In"]{
+	margin-top: 1em;
+}
 footer{
 	clear: both;
 	background: url('../imgs/swirl_pattern.png');
