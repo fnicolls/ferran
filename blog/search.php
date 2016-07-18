@@ -49,9 +49,9 @@ if ( $totalposts>=1 ){
 
 	<?php while ( $row = $result->fetch_assoc() ){?>
 	<article>
-		<h2><a href=""><?php echo $row['title']; ?></a></h2>
-		<span><?php echo nice_date($row['date']); ?></span>
-		<p><?php echo substr($row['body'], 0, 55); ?>&hellip;</p>
+		<h2><a href="single.php?post_id=<?php echo $row['post_id'];?>"><?php echo $row['title']; ?></a></h2>
+		<h3><span><?php echo nice_date($row['date']); ?></span></h3>
+		<p><?php echo substr($row['body'], 0, 55); ?>&hellip; <a href="single.php?post_id=<?php echo $row['post_id'];?>" class="rmore">read more</a></p>
 	</article>
 	<?php } ?>
 

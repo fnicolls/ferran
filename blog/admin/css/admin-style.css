@@ -20,6 +20,7 @@ body {
 .feedback{
   font-size: 0.8em;
   color: darkred;
+  padding-left: 1em;
 }
 #register form{
   padding: 2em;

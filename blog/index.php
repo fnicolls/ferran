@@ -38,6 +38,8 @@ require('header.php'); ?>
 			<a href="single.php?post_id=<?php echo $row['post_id'];?>#comm"><h3 class="right"><span>(<?php count_comments( $row['post_id'], 0 ); ?></span></h3></a>
 		</article>
 
+
+
 	<?php 
 		}//end while loop
 
@@ -47,6 +49,9 @@ require('header.php'); ?>
 	}else{
 		echo 'sorry no posts here';
 	}//end if there are posts to show ?>
+	
+	<a href="blog.php" class="read"><div id="button">Read All Posts</div></a>
+
 	</main>
 
 <?php 

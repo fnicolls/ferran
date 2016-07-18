@@ -47,7 +47,7 @@ if ( $result->num_rows >=1 ) { ?>
 
 <?php 
 //get the category names and count the posts in those categories
-$cats = "SELECT categories.name, COUNT(*) AS postcount
+$cats = "SELECT categories.category_id, categories.name, COUNT(*) AS postcount
 		 FROM categories, posts
 		 WHERE categories.category_id = posts.category_id
 		 GROUP BY posts.category_id
@@ -60,7 +60,7 @@ if ( $result->num_rows >=1 ) { ?>
 		<h4>categories</h4>
 		<ul>
 		<?php while ( $row = $result->fetch_assoc() ){ ?>
-			<li><a href="category.php?post_id=<?php echo $row['name'];?>"><?php echo $row['name']; ?></a> <span>(<?php echo $row['postcount']; ?>)</span></li>
+			<li><a href="category.php?cat_id=<?php echo $row['category_id'];?>"><?php echo $row['name']; ?></a> <span>(<?php echo $row['postcount']; ?>)</span></li>
 		<?php }//end while
 		$result->free(); ?>
 		</ul>
