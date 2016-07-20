@@ -54,7 +54,7 @@ if ( $result->num_rows == 1 ){
     <li class="write"><a href="admin-write.php">Write Post</a></li>
     <li class="edit"><a href="admin-manage.php">Edit Posts</a></li>
     <li class="comments"><a href="admin-comments.php">Comments</a></li>
-    <li class="users"><a href="admin-profile.php">Manage Users</a></li>
+    <li class="users"><a href="admin-profile.php">Edit Profile</a></li>
   </ul>
 </nav>
 

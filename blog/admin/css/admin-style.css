@@ -212,6 +212,7 @@ form input[type=checkbox], form input[type=radio] {
 form label, form legend {
   display: block;
   margin: 1em 0 .5em;
+  padding-left: 1em;
 }
 form input[type=submit] {
   background: turquoise;

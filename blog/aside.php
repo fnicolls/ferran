@@ -10,6 +10,7 @@
 	<section>
 		<h4>Navigation</h4>
 		<ul>
+			<li><a href="admin/index.php">Admin Panel</a></li>
 			<li><a href="blog.php">Blog</a></li>
 			<li><a href="links.php">Links</a></li>
 			<li><a href="authors.php">Authors</a></li>

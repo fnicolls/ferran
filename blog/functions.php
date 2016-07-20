@@ -108,6 +108,30 @@ function form_feedback( $feedback, $errors ){
 }
 
 
+function show_userpic( $user_id, $size = 'medium' ){
+	global $db;
+	//get userpic for this user
+	$query = "SELECT userpic
+			  FROM users
+			  WHERE user_id = $user_id
+			  LIMIT 1";
+	$result = $db->query($query);
+	if( ! $result ){
+		echo $db->error;
+	}
+	if( $result->num_rows == 1 ){
+		$row = $result->fetch_assoc();
+		//display userpic if it exists
+		if( $row['userpic'] != '' ){
+			$url = ROOT_URL . '/uploads/' . $row['userpic'] . '_' . $size . '.jpg';
+		}else{
+			//display generic user image
+			$url = ROOT_URL . '/imgs/generic_user.jpg';
+		}//end if userpic exists
+	}//end if num_rows
+
+	echo '<img src="'. $url . '" class="userpic" alt="userpic">';
+}
 
 
 
